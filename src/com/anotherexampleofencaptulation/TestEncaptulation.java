@@ -10,17 +10,17 @@ public class TestEncaptulation {
 		Account accountDetails= new Account();
 
 		System.out.println("********BANK OF BANK********");
-		
+
 		System.out.println("Enter The Account Holder Name :");
 		String nameString = scanner.next();
 		accountDetails.setName(nameString);
-		
+
 		System.out.println("Welcome "+nameString);
-		
+
 		System.out.println("Enter The Account Number :");
 		long accountNumberLong = scanner.nextLong();
 		accountDetails.setAccountNunmber(accountNumberLong);
-		
+
 		//		System.out.println("Enter The Password");
 		//		long password = scanner.nextLong();
 
